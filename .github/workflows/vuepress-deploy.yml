@@ -11,7 +11,7 @@ jobs:
       uses: jenkey2011/vuepress-deploy@dev
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: dungnt-1525/tuandungit.github.io
+        TARGET_REPO: dungnt-1525/tuandungit
         TARGET_BRANCH: gh_pages
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: src/.vuepress/dist/
