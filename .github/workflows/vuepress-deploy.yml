@@ -10,7 +10,7 @@ jobs:
     - name: Build and Deploy
       uses: jenkey2011/vuepress-deploy@dev
       env:
-        ACCESS_TOKEN: ${{ secrets.TUANDUNG_BLOG_SECRET }}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: dungnt-1525/tuandungit
         TARGET_BRANCH: gh_pages
         BUILD_SCRIPT: yarn && yarn build
