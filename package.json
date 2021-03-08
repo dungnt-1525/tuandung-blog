@@ -1,0 +1,20 @@
+{
+  "name": "tuandungit",
+  "version": "0.0.1",
+  "description": "tuandungit blog",
+  "main": "index.js",
+  "authors": {
+    "name": "tuandung",
+    "email": "tuandungitcn6@gmail.com"
+  },
+  "repository": "tuandung-blog/tuandungit",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "vuepress-theme-blog-vuetify": "^1.6.2"
+  }
+}
